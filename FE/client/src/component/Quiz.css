@@ -1,0 +1,139 @@
+/* Quiz.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-width: 450px;
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 0.7rem;
+    padding: 0.7rem 1.2rem;
+    margin: 0.4rem 0;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Topic buttons */
+.quiz-container > button,
+button {
+    background: #6e8efb;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.quiz-container > div > button {
+    background: #6e8efb;
+}
+
+/* Question card */
+.question-container {
+    background: #f6f6f6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.option-button {
+    display: block;
+    width: 100%;
+    background: #e0e0e0;
+    color: #333;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.option-button.correct {
+    background: #4caf50;
+    color: #fff;
+}
+
+.option-button.wrong {
+    background: #f44336;
+    color: #fff;
+}
+
+/* Timer */
+.timer {
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.timer.green {
+    color: #4caf50;
+}
+
+.timer.red {
+    color: #f44336;
+}
+
+/* Quiz Over buttons */
+.quiz-container > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .quiz-container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+    }
+}
