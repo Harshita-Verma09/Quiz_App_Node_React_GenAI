@@ -16,6 +16,7 @@ const app = express();
 const allowedOrigins = [
     "http://localhost:5173",
     "http://localhost:4173",  // Vite preview server
+    "https://quiz-app-node-react-genaifront.onrender.com"
    
     process.env.FRONTEND_URL              // deployed frontend URL (set in .env)
 ];
