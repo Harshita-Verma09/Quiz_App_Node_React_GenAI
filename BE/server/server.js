@@ -15,10 +15,10 @@ const app = express();
 // CORS config
 const allowedOrigins = [
     "http://localhost:5173",
-    "http://localhost:4173",  // Vite preview server
+    "http://localhost:4173",  
     "https://quiz-app-node-react-genaifront.onrender.com"
    
-    process.env.FRONTEND_URL              // deployed frontend URL (set in .env)
+    process.env.FRONTEND_URL            
 ];
 
 app.use(cors({
