@@ -16,6 +16,7 @@ const app = express();
 const allowedOrigins = [
     "http://localhost:5173",
     "http://localhost:4173",  // Vite preview server
+    "https://quiz-app-node-react-genai-verma-harshita.onrender.com",
     process.env.FRONTEND_URL              // deployed frontend URL (set in .env)
 ];
 
@@ -24,6 +25,7 @@ app.use(cors({
         if (!origin || allowedOrigins.includes(origin)) {
             callback(null, true);
         } else {
+            console.log("Blocked by CORS:", origin);
             callback(new Error("Not allowed by CORS"));
         }
     },

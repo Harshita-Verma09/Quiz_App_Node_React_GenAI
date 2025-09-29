@@ -39,14 +39,14 @@ function Quiz() {
         setLoading(true);
         setSelectedAnswer(null);
 
-        
+
         try {
             const res = await axios.post(
                 `${BACKEND_URL}/api/chat`,
                 { selectedTopic }
             );
 
-            if(!res.data.response){
+            if (!res.data.response) {
                 return "not found"
             }
             console.log(res)
