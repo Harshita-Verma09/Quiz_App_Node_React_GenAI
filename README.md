@@ -33,7 +33,7 @@ Showcase your full-stack skills and experience with AI integration!
 - **Demonstrates Modern React Patterns:** Hooks, state management, and effects.
 - **Real API Integration:** Connects to a backend for dynamic, AI-generated content.
 - **Professional UI/UX:** Clean interface, responsive design, and interactive feedback.
-- **Extensible:** Easily add more topics or question types.
+- **Extensible:** Easily add more topics or question types..
 
 ---
 
@@ -88,4 +88,5 @@ Frontend runs at `http://localhost:5173`
 For queries, reach out at [your.email@example.com](mailto:your.email@example.com)
 
 ---
+
 
