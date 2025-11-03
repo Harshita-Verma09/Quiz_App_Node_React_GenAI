@@ -5,7 +5,7 @@ Showcase your full-stack skills and experience with AI integration!
 
 ---
 
-## Feature
+## Features
 
 - **Topic Selection:** Choose JavaScript, React, or Python before starting the quiz.
 - **AI-Generated Questions:** Questions are fetched in real-time from the backend using Hugging Face GenAI models.
@@ -88,6 +88,7 @@ Frontend runs at `http://localhost:5173`
 For queries, reach out at [your.email@example.com](mailto:your.email@example.com)
 
 ---
+
 
 
 
