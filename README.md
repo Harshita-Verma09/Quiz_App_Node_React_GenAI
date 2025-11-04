@@ -75,7 +75,7 @@ Frontend runs at `http://localhost:5173`
 1. **Open Frontend in Browser:**  
    Visit [http://localhost:5173](http://localhost:5173)
 2. **Select a Topic:**  
-   Choose JavaScript, React, or Python.
+   Choose JavaScript, Reactjs, or Python.
 3. **Answer Questions:**  
    Select your answer before the timer runs out.
 4. **View Score:**  
@@ -88,6 +88,7 @@ Frontend runs at `http://localhost:5173`
 For queries, reach out at [your.email@example.com](mailto:your.email@example.com)
 
 ---
+
 
 
 
